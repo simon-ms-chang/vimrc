@@ -52,7 +52,8 @@ set background=light
 colorscheme peaksea
 
 
-set guifont=DejaVuSansMono\ 10 "設定字型和大小
+set guifont=Hack\ 8 "設定字型和大小
+"set guifont=DejaVuSansMono\ 10 "設定字型和大小
 "set guifont=Inconsolata\ 11 "設定字型和大小
 "set guifont=Monaco\ 10 "設定字型和大小
 "set guifont=Monospace\ 10 "設定字型和大小
