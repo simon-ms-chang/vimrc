@@ -3,7 +3,7 @@ let g:session_autoload = 'no'
 let g:session_autosave = 'no'
 
 
-if has("gui_running")
+"if has("gui_running")
 let g:NERDTreeWinPos = "left"
 
 "switch between windows
@@ -163,4 +163,4 @@ nnoremap <silent> <F3> :Rgrep<CR>
 
 
 "set nofoldenable 關掉fold
-endif " for gui running
+"endif " for gui running

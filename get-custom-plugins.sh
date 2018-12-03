@@ -11,14 +11,20 @@ pushd ~/.vim_runtime/my_plugins
     `git clone https://github.com/vim-scripts/grep.vim.git`
 
     rm -rf vim-colorscheme-switcher
-    `https://github.com/xolox/vim-colorscheme-switcher.git`
+    `git clone https://github.com/xolox/vim-colorscheme-switcher.git`
 
     rm -rf vim-dirdiff
     `git clone https://github.com/will133/vim-dirdiff.git`
 
     rm -rf vim-easygrep
-    `https://github.com/dkprice/vim-easygrep.git`
+    `git clone https://github.com/dkprice/vim-easygrep.git`
 
     rm -rf vimwiki
     `git clone https://github.com/vimwiki/vimwiki.git`
+
+    rm -rf minibufexpl.vim
+    `git clone https://github.com/fholgado/minibufexpl.vim.git`
+
+    rm -rf vim-misc
+    `git clone https://github.com/xolox/vim-misc.git`
 popd
