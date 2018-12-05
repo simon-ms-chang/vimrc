@@ -27,4 +27,7 @@ pushd ~/.vim_runtime/my_plugins
 
     rm -rf vim-misc
     `git clone https://github.com/xolox/vim-misc.git`
+
+    rm -rf tagbar
+    `git clone https://github.com/majutsushi/tagbar`
 popd
