@@ -31,6 +31,9 @@ pushd ~/.vim_runtime/my_plugins
     rm -rf Colour-Sampler-Pack
     `git clone https://github.com/vim-scripts/Colour-Sampler-Pack.git`
 
-    rm -rfScrollColors
+    rm -rf ScrollColors
     `git clone https://github.com/vim-scripts/ScrollColors`
+
+    rm -rf base16-vim
+    `git clone https://github.com/chriskempson/base16-vim.git`
 popd
