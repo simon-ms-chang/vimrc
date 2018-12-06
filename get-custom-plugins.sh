@@ -30,4 +30,10 @@ pushd ~/.vim_runtime/my_plugins
 
     rm -rf tagbar
     `git clone https://github.com/majutsushi/tagbar`
+
+    rm -rf Colour-Sampler-Pack
+    `git clone https://github.com/vim-scripts/Colour-Sampler-Pack.git`
+
+    rm -rfScrollColors
+    `git clone https://github.com/vim-scripts/ScrollColors`
 popd

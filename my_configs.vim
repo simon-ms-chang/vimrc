@@ -37,10 +37,13 @@ set fileencodings=utf-8,gb2312,gbk,gb18030
 
 let mapleader="\\"
 
+
+colorscheme base16-google-dark
 "colorscheme vim-irblack
 "colorscheme mayansmoke
 "colorscheme monokai
 if has("gui_running")
+
 set guioptions=agimtrb
 set guioptions+=T
 set background=light
@@ -49,10 +52,10 @@ set background=light
 "colorscheme github
 "colorscheme monokai
 "colorscheme molokai
-colorscheme peaksea
+"colorscheme peaksea
 
 
-set guifont=Hack\ 8 "設定字型和大小
+set guifont=Hack\ 10 "設定字型和大小
 "set guifont=DejaVuSansMono\ 10 "設定字型和大小
 "set guifont=Inconsolata\ 11 "設定字型和大小
 "set guifont=Monaco\ 10 "設定字型和大小
@@ -85,10 +88,10 @@ highlight BookmarkLine ctermbg=white ctermfg=black guifg=#000000 guibg=#d9f9f8
 set cursorline 
 "hi CursorLine gui=underline cterm=underline
 "hi CursorLine gui=underline cterm=underline ctermbg=white guibg=white ctermfg=black
-hi CursorLine cterm=NONE gui=NONE  ctermbg=white guibg=#ffffcc ctermfg=black guifg=black
+"hi CursorLine cterm=NONE gui=NONE  ctermbg=white guibg=#ffffcc ctermfg=black guifg=black
 
 set cursorcolumn
-highlight CursorColumn guibg=#ffffcc guifg=black
+"highlight CursorColumn guibg=#ffffcc guifg=black
 
 "bookmarks: mm, mn, mp
 let g:bookmark_sign = '>>'
@@ -160,7 +163,10 @@ let g:vimshell_force_overwrite_statusline = 0
 "grep.vim
 nnoremap <silent> <F3> :Rgrep<CR>
 
-
+"ScrollColors
+map <silent><F4> :NEXTCOLOR<cr>
+map <silent><C-F4> :PREVCOLOR<cr>
 
 "set nofoldenable 關掉fold
 "endif " for gui running
+
