@@ -10,9 +10,6 @@ pushd ~/.vim_runtime/my_plugins
     rm -rf grep.vim
     `git clone https://github.com/vim-scripts/grep.vim.git`
 
-    rm -rf vim-colorscheme-switcher
-    `git clone https://github.com/xolox/vim-colorscheme-switcher.git`
-
     rm -rf vim-dirdiff
     `git clone https://github.com/will133/vim-dirdiff.git`
 

@@ -38,12 +38,12 @@ set fileencodings=utf-8,gb2312,gbk,gb18030
 let mapleader="\\"
 
 
-colorscheme base16-google-dark
 "colorscheme vim-irblack
 "colorscheme mayansmoke
 "colorscheme monokai
 if has("gui_running")
 
+colorscheme base16-google-dark
 set guioptions=agimtrb
 set guioptions+=T
 set background=light
